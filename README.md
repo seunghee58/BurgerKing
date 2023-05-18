@@ -45,31 +45,30 @@ FE git hub : https://github.com/yeonju0318/BurgerKing
 
 ## 1️⃣ 회원 관련 기능
   1. 회원 가입 API <br>
-    - userId : 이메일 형식
-    - userName : 공백 금지
-    - password : 크기 8 이상, 15 이하 / 대소문자, 숫자, 특수문자 가능, 공백 금지
+    - userId : 이메일 형식 <br>
+    - userName : 공백 금지 <br>
+    - password : 크기 8 이상, 15 이하 / 대소문자, 숫자, 특수문자 가능, 공백 금지 <br>
   2. 로그인 API <br>
-    - 로그인 시 access token 발급
-  4. 로그아웃 API <br>
-    - 로그아웃 시 Redis를 사용하여 access token을 사용하지 못하도록 등록
+    - 로그인 시 access token 발급 <br>
+  3. 로그아웃 API <br>
+    - 로그아웃 시 Redis를 사용하여 access token을 사용하지 못하도록 등록 <br>
   
 ## 2️⃣ 메뉴 CRUD 기능
   1. 메뉴 추가 API <br>
-    - ADMIN 권한에 한하여 메뉴 추가 기능
+    - ADMIN 권한에 한하여 메뉴 추가 기능 <br>
   2. 메뉴 수정 API <br>
-    - ADMIN 권한에 한하여 메뉴 수정 기능
+    - ADMIN 권한에 한하여 메뉴 수정 기능 <br>
   3. 메뉴 삭제 API <br>
-    - ADMIN 권한에 한하여 메뉴 삭제 기능
+    - ADMIN 권한에 한하여 메뉴 삭제 기능 <br>
   4. 메뉴 조회 API <br>
-    - 카테고리 별 메뉴 조회 기능 
+    - 카테고리 별 메뉴 조회 기능 <br>
 
 ## 3️⃣ 소셜 로그인 기능
-  1. 카카오 로그인 API
+  1. 카카오 로그인 API <br>
 
 ## 4️⃣ 매장 찾기 기능
-  1. 시, 구 별로 매장 찾기 API
-    - 카카오 지도 API 사용하여 기능 구현
-
+  1. 시, 구 별로 매장 찾기 API <br>
+    - 카카오 지도 API 사용하여 기능 구현 <br>
 
 ## 🚩 기능 구현을 위해 고민한 것
 
