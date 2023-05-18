@@ -45,8 +45,8 @@ FE git hub : https://github.com/yeonju0318/BurgerKing
 
 ## 1️⃣ 회원 관련 기능
   1. 회원 가입 API <br>
-    - userId : 크기 4 이상, 10 이하 / 소문자와 숫자만 입력가능, 공백 금지 / 중복 불가
-    - userName : 크기 10이하, 공백 금지
+    - userId : 이메일 형식
+    - userName : 공백 금지
     - password : 크기 8 이상, 15 이하 / 대소문자, 숫자, 특수문자 가능, 공백 금지
   2. 로그인 API <br>
     - 로그인 시 access token 발급
