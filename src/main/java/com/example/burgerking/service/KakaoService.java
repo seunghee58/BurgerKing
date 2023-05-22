@@ -63,7 +63,7 @@ public class KakaoService {
         body.add("grant_type", "authorization_code");
         body.add("client_id", "9c2e0815260028b28bff127ae57756af");
         body.add("client_secret", "BVI4OmxLolnS9qM3e7zFvw5AJMvJSxRF");
-        body.add("redirect_uri", "http://43.200.3.238:8080/api/kakao");
+        body.add("redirect_uri", "http://43.200.191.115:3000/api/kakao");
         body.add("code", code);
 
         // HTTP 요청 보내기
